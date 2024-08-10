@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer parcial</title>
+</head>
+<body>
+    <!--FORMULARIO-->
+    <form>
+        <!--permite organizar en grupos los campos de un formulario-->
+        <!--crea un bloque dentro para rodear el formulario-->
+            <fieldset>
+            <!--legend Describir lo que es el formulario-->
+            <legend>Parcial I</legend>
+        <div>
+            <label>Nombre</label>
+            <input type="text" placeholder="Name"> 
+        </div>
+        <br>
+
+        <div>
+            <label>Apellido</label>
+            <input type="text" placeholder="last name"> 
+        </div>
+        <br>
+
+        <div>
+            <label>Usuario</label>
+            <input type="text" placeholder="User"> 
+        </div>
+        <br>
+
+        <div>
+            <label>Contrasenia</label>
+            <input type="password" placeholder="Password"> 
+        </div>
+        <br>
+
+        <div>
+            <label for="genero">Genero</label>
+            <select id="opciones">
+                <option value="opcion1">Masculino</option>
+                <option value="opcion2">Femenino</option>
+                <option value="opcion3">Prefiero no decirlo</option>
+            </select>
+        </div>
+        <br>
+        
+        <div>
+            <label for="fechaN">Fecha de Nacimiento:</label>
+            <input type="date" id="fechaN" name="fechaN" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="semana">Dias</label>
+            <select id="opciones">
+                <option value="opcion1">Lunes</option>
+                <option value="opcion2">Martes</option>
+                <option value="opcion3">Miercoles</option>
+                <option value="opcion4">Jueves</option>
+                <option value="opcion5">Viernes</option>
+                <option value="opcion6">Sabado</option>
+                <option value="opcion7">Domingo</option>
+            </select>
+        </div>
+        <br>
+        
+
+        <div>
+            <!--Boton-->
+            <input type="submit" value="Guardar">
+        </div>
+        <br>
+
+        </fieldset>
+    </form>
+
+
+</body>
+</html>
